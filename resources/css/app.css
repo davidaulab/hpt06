@@ -1,0 +1,37 @@
+BODY{
+    background-color: #FFe0B0;
+    color: #404000;
+
+}
+#map { height: 500px; }
+.bg-lightyellow {
+    background-color: #F0FFd0;
+}
+.tooltipX {
+    display: inline-block;
+    background: #ffffff;
+    color: #643045;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 4px;
+    opacity: 0.8 !important;
+    position:absolute;
+    top: -100px;
+  }
+  
+.tooltipX[data-popper-placement^='top'] > #arrow {
+    bottom: -4px;
+  }
+  
+  .tooltipX[data-popper-placement^='bottom'] > #arrow {
+    top: -4px;
+  }
+  
+  .tooltipX[data-popper-placement^='left'] > #arrow {
+    right: -4px;
+  }
+  
+  .tooltipX[data-popper-placement^='right'] > #arrow {
+    left: -4px;
+  }
